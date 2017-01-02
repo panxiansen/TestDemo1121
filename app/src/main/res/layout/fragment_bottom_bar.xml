@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+
+    <ImageButton
+        android:background="@drawable/collection_selector_text"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/right_number"
+            android:textColor="#87CEFA"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="4"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/wrong_number"
+        android:paddingLeft="10dp"
+        android:text="3"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#FF4500"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:background="@mipmap/菜单标志"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+</LinearLayout>
